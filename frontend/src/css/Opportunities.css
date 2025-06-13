@@ -1,0 +1,282 @@
+.opportunities-root {
+  padding: 1.5rem 0.5rem;
+}
+
+.risk-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.risk-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #22336b;
+  margin-bottom: 18px;
+}
+.risk-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.risk-col {
+  flex: 1;
+  min-width: 220px;
+}
+.risk-label {
+  margin-bottom: 6px;
+  color: #22336b;
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+.risk-value {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+}
+.risk-yellow { color: #f4b400; }
+.risk-orange { color: #fbbc05; }
+.risk-red { color: #ea4335; }
+.risk-green { color: #34a853; }
+
+.opportunities-flex {
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.opportunities-filters {
+  flex: 1;
+  min-width: 260px;
+}
+.opportunities-title {
+  font-weight: 700;
+  color: #22336b;
+  font-size: 1.15rem;
+  margin-bottom: 18px;
+}
+.filter-label {
+  font-weight: 600;
+  color: #22336b;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+.filter-select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  color: #22336b;
+}
+.filter-countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.country-checkbox {
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  color: #22336b;
+  font-size: 0.98rem;
+}
+.opportunities-companies {
+  flex: 2;
+  min-width: 350px;
+}
+.companies-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.companies-title {
+  font-weight: 700;
+  color: #22336b;
+  font-size: 1.05rem;
+}
+.favorites-btn {
+  background: #fff;
+  color: #2854d9;
+  border: 1px solid #2854d9;
+  border-radius: 6px;
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.favorites-btn:hover {
+  background: #2854d9;
+  color: #fff;
+}
+.companies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.company-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.company-name {
+  font-weight: 600;
+  color: #2854d9;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+.company-address {
+  color: #444;
+  font-size: 0.97rem;
+  margin-bottom: 8px;
+}
+.company-actions {
+  display: flex;
+  gap: 10px;
+}
+.map-btn {
+  background: #2854d9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.98rem;
+  transition: background 0.2s;
+}
+.map-btn:hover {
+  background: #22336b;
+}
+.save-btn {
+  background: #34a853;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.98rem;
+  transition: background 0.2s;
+}
+.save-btn:hover {
+  background: #257a3e;
+}
+
+/* --- Assessment Group Styles --- */
+.assessment-group-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.assessment-title {
+  color: #22336b;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.assessment-desc {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+.assessment-section-title {
+  color: #2854d9;
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.assessment-questions-box {
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  padding: 1.2rem 1rem 1rem 1rem;
+  margin-bottom: 1.2rem;
+}
+.assessment-question-block {
+  margin-bottom: 1.1rem;
+}
+.assessment-question-text {
+  color: #22336b;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+.assessment-radio-group {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.2rem;
+}
+.assessment-radio-label {
+  color: #22336b;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.assessment-radio-label input[type="radio"] {
+  accent-color: #2854d9;
+}
+.assessment-nav-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+.assessment-back-btn, .assessment-next-btn {
+  background: #fff;
+  color: #2854d9;
+  border: 1.5px solid #2854d9;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.assessment-next-btn {
+  background: #2854d9;
+  color: #fff;
+  border: none;
+}
+.assessment-next-btn:hover {
+  background: #22336b;
+}
+.assessment-back-btn:hover {
+  background: #f0f4ff;
+}
+.assessment-question-id {
+  color: #2854d9;
+  font-weight: 700;
+  margin-right: 0.3rem;
+}
+.assessment-nav-btns-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+  gap: 0.7rem;
+} 

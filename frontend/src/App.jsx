@@ -5,23 +5,20 @@ import './css/Navbar.css';
 import './css/HeaderSection.css';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Opportunities from './pages/Opportunities';
+import Navbar from './components/Navbar';
+import ReadinessAssesment from './pages/ReadinessAssesment';
+import HeaderSection from './components/HeaderSection';
+import Account from './pages/Account';
 
 function HomePage() {
   return (
-    <>
-      {/* Header Section (not fixed) */}
-      <section className="header-section">
-        <h2>Welcome to GlobalReady</h2>
-        <p>
-          GlobalReady is your smart partner in international expansion. Designed to support Alberta SMEs, our AI-powered system helps businesses assess their readiness for global markets, discover new opportunities, and stay updated with real-time insights.
-        </p>
-      </section>
-      {/* Main Content */}
-      <main className="main-content">
-        <h1>Welcome to My Website</h1>
-        <p>This is a standard React baseplate. Start building your awesome app here!</p>
-      </main>
-    </>
+    <HeaderSection
+      title="Welcome to GlobalReady"
+      subtitle="GlobalReady is your smart partner in international expansion. Designed to support Alberta SMEs, our AI-powered system helps businesses assess their readiness for global markets, discover new opportunities, and stay updated with real-time insights."
+      mainTitle="Welcome to My Website"
+      mainParagraph="This is a standard React baseplate. Start building your awesome app here!"
+    />
   );
 }
 
@@ -40,23 +37,14 @@ function App() {
           </div>
         </header>
 
-        {/* Sticky Navbar */}
-        <nav className="sticky-navbar">
-          <div className="sticky-navbar-inner">
-            <Link to="/">
-              <button className="nav-btn">Home</button>
-            </Link>
-            <button className="nav-btn">Opportunities</button>
-            <button className="nav-btn">News</button>
-            <button className="nav-btn">Country Info</button>
-            <button className="nav-btn">Take Readiness Assessment</button>
-          </div>
-        </nav>
-
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/opportunities" element={<Opportunities />} />
+          <Route path="/readinessAssesment" element={<ReadinessAssesment />} />
+          <Route path="/account" element={<Account />} />
         </Routes>
       </div>
     </Router>

@@ -1,25 +1,21 @@
 import React from 'react';
-import './Navbar.css'; // Optional: for styling
+import '../css/Navbar.css'; // Optional: for styling
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
-        <img src="/logo.png" alt="GlobalReady Logo" className="logo" />
-        <span className="brand">GlobalReady</span>
-      </div>
-      <ul className="navbar-links">
-        <li href="\App.jsx">Home</li>
-        <li href="\opportunities">Opportunities</li>
-        <li href="\news">News</li>
-        <li href="\country-info">Country Info</li>
-        <li href="\readiness-assessment">Take Readiness Assessment</li>
-      </ul>
-      <div className="navbar-right">
-        <button href="\pages\register.jsx" className="btn">Register</button>
-        <button className="btn">Login</button>
-      </div>
-    </nav>
+    <>
+      {/* Sticky Navbar */}
+      <nav className="sticky-navbar">
+        <div className="sticky-navbar-inner">
+          <Link to="/"><button className="nav-btn">Home</button></Link>
+          <Link to="/opportunities"><button className="nav-btn">Opportunities</button></Link>
+          <button className="nav-btn">News</button>
+          <Link to="/account"><button className="nav-btn">Account</button></Link>
+          <Link to="/readinessAssesment"><button className="nav-btn">Take Readiness Assessment</button></Link>
+        </div>
+      </nav>
+    </>
   );
 }
 

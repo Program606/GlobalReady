@@ -8,11 +8,6 @@ import { Link } from 'react-router-dom';
 function Login() {
   return (
     <>
-      {/* Header Section (not fixed) */}
-      <section className="header-section">
-        <h2>Login to GlobalReady</h2>
-        <p>Access your account and continue your global journey.</p>
-      </section>
       <main className="main-content">
         <form className="auth-form">
           <h2 className="auth-form-title">Login Form</h2>
