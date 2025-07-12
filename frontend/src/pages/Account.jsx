@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/App.css';
 import '../css/Navbar.css';
-import '../css/HeaderSection.css';
+import '../css/HeroSection.css';
 import '../css/Account.css';
 
 function AccountInfoCard({ companyName, email }) {

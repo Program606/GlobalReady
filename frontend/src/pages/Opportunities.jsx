@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/App.css';
 import '../css/Navbar.css';
-import '../css/HeaderSection.css';
+import '../css/HeroSection.css';
 import '../css/AuthForm.css';
 import '../css/Opportunities.css';
 import RiskAssessmentCard from '../components/RiskAssessmentCard';

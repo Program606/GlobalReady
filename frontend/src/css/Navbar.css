@@ -1,4 +1,4 @@
-.top-bar {
+/* .top-bar {
   width: 100vw;
   height: 64px;
   background: #22336b;
@@ -37,34 +37,76 @@
   padding: 0.5rem 1.2rem;
   font-weight: 600;
   cursor: pointer;
-}
+} */
 
-.sticky-navbar {
-  width: 100vw;
-  height: 48px;
-  background: #304080;
+.navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 64px;
-  z-index: 999;
-  margin-top: 64px;
-}
-
-.sticky-navbar-inner {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-btn {
+  justify-content: space-between;
+  padding: 24px 48px 0 48px;
   background: transparent;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo svg {
+  margin-right: 12px;
+}
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
   color: #fff;
-  border: none;
+  text-decoration: none;
   font-size: 1rem;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.nav-links a:hover {
+  opacity: 1;
+}
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 4px;
+}
+.login {
+  color: #ff5c5c;
+  text-decoration: none;
   font-weight: 500;
-  padding: 0.5rem 1.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.2s;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.login:hover {
+  color: #ff2c2c;
+}
+
+.get-started {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.get-started:hover {
+  background: #fff;
+  color: #15171a;
 }
