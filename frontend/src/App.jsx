@@ -13,17 +13,6 @@ import Top3Card from './components/Top3Card';
 import MapSection from './components/MapSection';
 import AboutUs from './components/AboutUs';
 
-function HomePage() {
-  return (
-    <HeroSection
-      title="Welcome to GlobalReady"
-      subtitle="GlobalReady is your smart partner in international expansion. Designed to support Alberta SMEs, our AI-powered system helps businesses assess their readiness for global markets, discover new opportunities, and stay updated with real-time insights."
-      mainTitle="Welcome to My Website"
-      mainParagraph="This is a standard React baseplate. Start building your awesome app here!"
-    />
-  );
-}
-
 function App() {
   return (
     <Router>
@@ -42,14 +31,13 @@ function App() {
         <AboutUs title="About Global Ready"
         paragraph={
           <>
-            <p>GlobalReady was a student submission in Mount Royal University’s 
+            GlobalReady was a student submission in Mount Royal University’s 
             International Business Hackation. With only a couple of weeks,
             a student team componsed of Computer Information System Students:
             (Starting from the left) Zeenat, Maryam, Toka, Prince was able to produce 
             a solution to assist Canadian companies in finding international opportunities. 
             Among other features, the main gravitation of GlobalReady is its ability to assess 
             a company’s ability to expand based on a detailed questionnaire.
-            </p>
           </>
         }/>
         {/* <AboutUs /> */}
@@ -65,27 +53,5 @@ function App() {
     </Router>
   );
 }
-
-const navBtnStyle = {
-  background: 'transparent',
-  color: '#fff',
-  border: 'none',
-  fontSize: '1rem',
-  fontWeight: 500,
-  padding: '0.5rem 1.5rem',
-  borderRadius: 4,
-  cursor: 'pointer',
-  transition: 'background 0.2s',
-};
-
-const topBtnStyle = {
-  background: '#fff',
-  color: '#22336b',
-  border: 'none',
-  borderRadius: 4,
-  padding: '0.5rem 1.2rem',
-  fontWeight: 600,
-  cursor: 'pointer',
-};
 
 export default App;

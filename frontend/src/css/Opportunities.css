@@ -92,63 +92,7 @@
   flex: 2;
   min-width: 350px;
 }
-.companies-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
-}
-.companies-title {
-  font-weight: 700;
-  color: #22336b;
-  font-size: 1.05rem;
-}
-.favorites-btn {
-  background: #fff;
-  color: #2854d9;
-  border: 1px solid #2854d9;
-  border-radius: 6px;
-  padding: 0.3rem 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.2s, color 0.2s;
-}
-.favorites-btn:hover {
-  background: #2854d9;
-  color: #fff;
-}
-.companies-list {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  max-height: 320px;
-  overflow-y: auto;
-}
-.company-card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-  padding: 1rem 1.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.company-name {
-  font-weight: 600;
-  color: #2854d9;
-  font-size: 1rem;
-  margin-bottom: 2px;
-}
-.company-address {
-  color: #444;
-  font-size: 0.97rem;
-  margin-bottom: 8px;
-}
-.company-actions {
-  display: flex;
-  gap: 10px;
-}
+
 .map-btn {
   background: #2854d9;
   color: #fff;

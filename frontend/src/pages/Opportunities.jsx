@@ -6,7 +6,6 @@ import '../css/AuthForm.css';
 import '../css/Opportunities.css';
 import RiskAssessmentCard from '../components/RiskAssessmentCard';
 import OpportunitiesFilters from '../components/OpportunitiesFilters';
-import CompaniesList from '../components/CompaniesList';
 
 const industries = ['Agriculture', 'Technology', 'Manufacturing'];
 const regions = ['Africa', 'Asia', 'Europe'];
