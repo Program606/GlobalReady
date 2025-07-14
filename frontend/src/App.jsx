@@ -26,7 +26,62 @@ function App() {
           </>
         }
         />
-        <Top3Card />
+        <Top3Card 
+        header1= {
+          <h2>Research-Backed Questionaire</h2>
+        }
+        para1={
+          <>
+            <p>TextTextTextText
+              TextTextTextText
+              TextTextTextText
+              TextTextText
+            TextTextTextText
+            TextTextTextText
+            TextTextTextText
+            TextTextText
+            TextTextTextText
+            TextTextTextText
+            TextTextTextTextTextTextText
+
+            </p>
+          </>
+        }
+        header2= {
+          <h2>Country Risk Assesor and Personalized Company Locator
+          </h2>
+        }
+        para2={
+          <>
+            <p>TextTextTextTextText
+              TextTextTextTextTextTextText
+            TextTextTextTextTextText
+            TextTextTextTextTextTextTextText
+            TextTextTextTextTextText
+            TextTextTextTextTextTextTextTextText
+            </p>
+          </>
+        }
+        header3= {
+          <h2>AI-Powered Recomendations</h2>
+        }
+        para3={
+          <>
+            <p>TextTextTextText
+              TextTextTextTextText
+              TextTextTextTextText
+            TextTextTextTextText
+            TextTextTextTextText
+            TextTextTextTextText
+            TextTextTextTextText
+            TextTextTextTextText
+            TextTextTextTextText
+            </p>
+          </>
+        }
+        // para2="test2"
+        // para3="test3"
+        />
         <MapSection />
         <AboutUs title="About Global Ready"
         paragraph={

@@ -1,21 +1,21 @@
 import "../css/Top3Card.css";
 
-function Top3Card() {
+function Top3Card({ header1,para1,header2, para2, header3,para3 }) {
     return (
         <section className="card-container">
             <div className="card">
-                <h2>SERVICES</h2>
-                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                {header1}
+                {para1}
                 <a href="#" className="card-btn">More Info</a>
             </div>
             <div className="card">
-                <h2>PROJECTS</h2>
-                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                {header2}
+                {para2}
                 <a href="#" className="card-btn">More Info</a>
             </div>
             <div className="card">
-                <h2>CLIENTS</h2>
-                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                {header3}
+                {para3}
                 <a href="#" className="card-btn">More Info</a>
             </div>
         </section>
